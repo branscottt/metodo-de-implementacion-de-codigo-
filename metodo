@@ -1,0 +1,8 @@
+graph TD
+    A[Idea de Proyecto] --> B[Módulos]
+    B --> C[Secciones]
+    C --> D[SDD con IA]
+    D --> E[Tareas < 400 líneas]
+    E --> F[Inyección Manual + DeepSeek]
+    F --> G[Pruebas y Git Commit]
+    G --> B
